@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2269530329BF729600341F7F /* PictureControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269530029BF729500341F7F /* PictureControllerTests.swift */; };
+		2269530529BF729600341F7F /* LoverControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269530229BF729600341F7F /* LoverControllerTests.swift */; };
+		2269530929BF72AA00341F7F /* PicturesInterpreterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269530629BF72A900341F7F /* PicturesInterpreterTests.swift */; };
+		2269530A29BF72AA00341F7F /* LoversInterpreterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269530729BF72A900341F7F /* LoversInterpreterTests.swift */; };
+		2269530F29BF72BC00341F7F /* LoverControllerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269530C29BF72BB00341F7F /* LoverControllerMock.swift */; };
+		2269531029BF72BC00341F7F /* NetworkingMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269530D29BF72BC00341F7F /* NetworkingMock.swift */; };
+		2269531129BF72BC00341F7F /* PictureControllerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269530E29BF72BC00341F7F /* PictureControllerMock.swift */; };
+		2269531429BF72CE00341F7F /* LoverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269531229BF72CE00341F7F /* LoverTests.swift */; };
+		2269531529BF72CE00341F7F /* PictureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269531329BF72CE00341F7F /* PictureTests.swift */; };
+		2269531A29BF72DF00341F7F /* PicturesRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269531629BF72DF00341F7F /* PicturesRequestTests.swift */; };
+		2269531C29BF72DF00341F7F /* LoversRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269531829BF72DF00341F7F /* LoversRequestTests.swift */; };
+		2269531D29BF72DF00341F7F /* RequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269531929BF72DF00341F7F /* RequestTests.swift */; };
 		22BE702229B8D89A00533594 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BE702129B8D89A00533594 /* Images.swift */; };
 		22BE702429B8E49300533594 /* ImageStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BE702329B8E49300533594 /* ImageStorage.swift */; };
 		22C2513629B3F6350060F4D8 /* ColorLoversApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C2513529B3F6350060F4D8 /* ColorLoversApp.swift */; };
 		22C2513829B3F6350060F4D8 /* LoversView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C2513729B3F6350060F4D8 /* LoversView.swift */; };
 		22C2513A29B3F6380060F4D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C2513929B3F6380060F4D8 /* Assets.xcassets */; };
 		22C2513E29B3F6380060F4D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C2513D29B3F6380060F4D8 /* Preview Assets.xcassets */; };
-		22C2514829B3F6380060F4D8 /* ColorLoversTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C2514729B3F6380060F4D8 /* ColorLoversTests.swift */; };
 		22C2515229B3F6380060F4D8 /* ColorLoversUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C2515129B3F6380060F4D8 /* ColorLoversUITests.swift */; };
 		22C2515429B3F6380060F4D8 /* ColorLoversUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C2515329B3F6380060F4D8 /* ColorLoversUITestsLaunchTests.swift */; };
 		22C2516129B400090060F4D8 /* LoversViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C2516029B400090060F4D8 /* LoversViewModel.swift */; };
@@ -57,6 +68,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2269530029BF729500341F7F /* PictureControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureControllerTests.swift; sourceTree = "<group>"; };
+		2269530229BF729600341F7F /* LoverControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoverControllerTests.swift; sourceTree = "<group>"; };
+		2269530629BF72A900341F7F /* PicturesInterpreterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicturesInterpreterTests.swift; sourceTree = "<group>"; };
+		2269530729BF72A900341F7F /* LoversInterpreterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoversInterpreterTests.swift; sourceTree = "<group>"; };
+		2269530C29BF72BB00341F7F /* LoverControllerMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoverControllerMock.swift; sourceTree = "<group>"; };
+		2269530D29BF72BC00341F7F /* NetworkingMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingMock.swift; sourceTree = "<group>"; };
+		2269530E29BF72BC00341F7F /* PictureControllerMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureControllerMock.swift; sourceTree = "<group>"; };
+		2269531229BF72CE00341F7F /* LoverTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoverTests.swift; sourceTree = "<group>"; };
+		2269531329BF72CE00341F7F /* PictureTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureTests.swift; sourceTree = "<group>"; };
+		2269531629BF72DF00341F7F /* PicturesRequestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicturesRequestTests.swift; sourceTree = "<group>"; };
+		2269531829BF72DF00341F7F /* LoversRequestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoversRequestTests.swift; sourceTree = "<group>"; };
+		2269531929BF72DF00341F7F /* RequestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestTests.swift; sourceTree = "<group>"; };
 		22BE702129B8D89A00533594 /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		22BE702329B8E49300533594 /* ImageStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStorage.swift; sourceTree = "<group>"; };
 		22C2513229B3F6350060F4D8 /* ColorLovers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorLovers.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,7 +89,6 @@
 		22C2513B29B3F6380060F4D8 /* ColorLovers.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ColorLovers.entitlements; sourceTree = "<group>"; };
 		22C2513D29B3F6380060F4D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		22C2514329B3F6380060F4D8 /* ColorLoversTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorLoversTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		22C2514729B3F6380060F4D8 /* ColorLoversTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorLoversTests.swift; sourceTree = "<group>"; };
 		22C2514D29B3F6380060F4D8 /* ColorLoversUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorLoversUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22C2515129B3F6380060F4D8 /* ColorLoversUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorLoversUITests.swift; sourceTree = "<group>"; };
 		22C2515329B3F6380060F4D8 /* ColorLoversUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorLoversUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -118,6 +140,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		226952F929BF71D300341F7F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2269530229BF729600341F7F /* LoverControllerTests.swift */,
+				2269530029BF729500341F7F /* PictureControllerTests.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		226952FC29BF720600341F7F /* Interpreters */ = {
+			isa = PBXGroup;
+			children = (
+				2269530729BF72A900341F7F /* LoversInterpreterTests.swift */,
+				2269530629BF72A900341F7F /* PicturesInterpreterTests.swift */,
+			);
+			path = Interpreters;
+			sourceTree = "<group>";
+		};
+		226952FD29BF721000341F7F /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				2269530C29BF72BB00341F7F /* LoverControllerMock.swift */,
+				2269530D29BF72BC00341F7F /* NetworkingMock.swift */,
+				2269530E29BF72BC00341F7F /* PictureControllerMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		226952FE29BF722B00341F7F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2269531229BF72CE00341F7F /* LoverTests.swift */,
+				2269531329BF72CE00341F7F /* PictureTests.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		226952FF29BF723D00341F7F /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				2269531829BF72DF00341F7F /* LoversRequestTests.swift */,
+				2269531629BF72DF00341F7F /* PicturesRequestTests.swift */,
+				2269531929BF72DF00341F7F /* RequestTests.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
 		22C2512929B3F6350060F4D8 = {
 			isa = PBXGroup;
 			children = (
@@ -167,7 +236,11 @@
 		22C2514629B3F6380060F4D8 /* ColorLoversTests */ = {
 			isa = PBXGroup;
 			children = (
-				22C2514729B3F6380060F4D8 /* ColorLoversTests.swift */,
+				226952F929BF71D300341F7F /* Controllers */,
+				226952FC29BF720600341F7F /* Interpreters */,
+				226952FD29BF721000341F7F /* Mocks */,
+				226952FE29BF722B00341F7F /* Models */,
+				226952FF29BF723D00341F7F /* Requests */,
 			);
 			path = ColorLoversTests;
 			sourceTree = "<group>";
@@ -357,6 +430,7 @@
 					};
 					22C2514229B3F6380060F4D8 = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 						TestTargetID = 22C2513129B3F6350060F4D8;
 					};
 					22C2514C29B3F6380060F4D8 = {
@@ -448,7 +522,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22C2514829B3F6380060F4D8 /* ColorLoversTests.swift in Sources */,
+				2269531D29BF72DF00341F7F /* RequestTests.swift in Sources */,
+				2269531429BF72CE00341F7F /* LoverTests.swift in Sources */,
+				2269531029BF72BC00341F7F /* NetworkingMock.swift in Sources */,
+				2269530A29BF72AA00341F7F /* LoversInterpreterTests.swift in Sources */,
+				2269530F29BF72BC00341F7F /* LoverControllerMock.swift in Sources */,
+				2269531129BF72BC00341F7F /* PictureControllerMock.swift in Sources */,
+				2269530529BF729600341F7F /* LoverControllerTests.swift in Sources */,
+				2269531529BF72CE00341F7F /* PictureTests.swift in Sources */,
+				2269531A29BF72DF00341F7F /* PicturesRequestTests.swift in Sources */,
+				2269531C29BF72DF00341F7F /* LoversRequestTests.swift in Sources */,
+				2269530329BF729600341F7F /* PictureControllerTests.swift in Sources */,
+				2269530929BF72AA00341F7F /* PicturesInterpreterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -669,10 +754,16 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = biegaj.grzegorz.color.lovers.ColorLoversTests;
@@ -680,6 +771,7 @@
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorLovers.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ColorLovers";
@@ -691,10 +783,16 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = biegaj.grzegorz.color.lovers.ColorLoversTests;

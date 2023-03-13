@@ -14,7 +14,6 @@ protocol LoverControllerProtocol {
     var lovers: [Lover] { get }
     var connection: RequestConnectionProtocol { get }
 
-    func lovers(offset: Int, handler: @escaping (Result<[Lover], ResponseError>) -> ())
     func lovers(offset: Int) async throws -> [Lover] 
     func sortLoversByRatingAndName(lovers: [Lover]) -> [Lover]
     func clearCahe()
@@ -41,20 +40,6 @@ class LoverController: LoverControllerProtocol {
                 case .failure(let error):
                     continuation.resume(throwing: error)
                 }
-            }
-        }
-    }
-
-    func lovers(offset: Int, handler: @escaping (Result<[Lover], ResponseError>) -> ()) {
-        let request = LoversRequest(offset: offset, number: numberOfElements)
-        connection.performRequest(request: request) { (response) in
-            
-            switch response {
-            case .success(let lovers):
-                self.lovers += self.sortLoversByRatingAndName(lovers: lovers)
-                handler(.success(self.lovers))
-            case .failure(let error):
-                handler(.failure(error))
             }
         }
     }
